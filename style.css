@@ -165,6 +165,8 @@ nav ul a{
     height: 40vh;
 }
 .phonecard .tele{height: 20vh;}
+.phonecard h4{font-size: 1.1rem;}
+.phonecard p{font-size: .7rem;}
 .whichiphone{
     padding: 20px 0;
 }
@@ -499,7 +501,7 @@ footer h6{
 }
 .footer3{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     font-size: .8rem;
 }
@@ -555,6 +557,7 @@ footer h6{
         background-size: 65%;
         height: 100vh;
     }
+    .phonecard h4{font-size: 1.3rem;}
     .guidformobile{display: none;}
     .guidforpc{
         display: block;
@@ -752,5 +755,10 @@ footer h6{
     }
     .widht20{
         width: 20%!important;
+    }
+    .footer3{
+        flex-direction: row;
+        gap: 4%;
+        flex-wrap: nowrap;
     }
 }
