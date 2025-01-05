@@ -225,7 +225,7 @@ nav ul a{
     background-size: 50%;
     height: 40vh;
 }
-.ways{ padding: 30px 0 0 0;}
+.ways{margin: 0;}
 .best{
     background: url('img/appleisthebest.jpeg') 1% 100% /cover no-repeat;
     background-color: #fff;
@@ -262,7 +262,7 @@ nav ul a{
 .magsafebottom{
     height: 30vh;
     background: url('img/magsafe.jpeg') center/cover no-repeat;
-    background-size: 85%;
+    background-size: 80%;
 }
 .airtag{
     background-color: #fff;
