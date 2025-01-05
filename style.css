@@ -262,7 +262,7 @@ nav ul a{
 .magsafebottom{
     height: 30vh;
     background: url('img/magsafe.jpeg') center/cover no-repeat;
-    background-size: 80%;
+    background-size: 75%;
 }
 .airtag{
     background-color: #fff;
@@ -294,7 +294,7 @@ nav ul a{
     background: url('img/magic.jpeg') center/cover no-repeat ;
     height: 30vh;
     width: 100%;
-    background-size: 80%;
+    background-size: 90%;
 }
 .buycards{margin: 40px 0 60px 0;}
 .shopalliphone h2{
