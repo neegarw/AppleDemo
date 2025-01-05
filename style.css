@@ -1,0 +1,756 @@
+:root{
+    --mavi: #0171E3
+}
+.container{width: 95%!important;}
+.bgboz{background-color: #F2F2F2;}
+.buy{
+    background-color: var(--mavi);
+    border: none;
+    border-radius: 25px;
+    padding: 6px 25px ;
+    color: #fff;
+    transition: .4s ease;
+}
+.buy:hover{box-shadow: 0px 0px 40px #fff;}
+.buybgag:hover{
+    background-color: #0257ac;
+    box-shadow: 8px 5px 10px #000000;
+}
+.gradient{
+    margin:10px 0;
+    text-decoration: none;
+    position: relative;
+    font-size: 1rem;
+}
+.gradient::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: .4s ease;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.gradient:hover::after{width: 100%;}
+nav{background-color: #F2F2F2;}
+nav ul{display: none;}
+nav ul a{
+    text-decoration: none;
+    padding: 3px 10px;
+    color: #000;
+    font-size: .8rem;
+    font-weight: 600;
+    position: relative;
+}
+.product .container::-webkit-scrollbar{display: none;;}
+.product .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+    overflow-x: scroll;
+    padding: 20px ;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+.products p{
+    padding-top: 5px ;
+    font-size: .7rem;
+}
+.new{
+    font-size: .7rem;
+    color: #BF4800;
+}
+.products .new{
+    position: absolute;
+    bottom: -15px;
+}
+.shopiphone{padding: 30px ;}
+.shopiphone h2{font-size: 1.5rem;}
+.titaniumtop{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    gap: 5px;
+}
+.titaniumtop img{height: 20%;}
+.titaniumtop .new{ font-size: .8rem;}
+.titaniumtop h6{
+    font-size:1.3rem ;
+    color: #656154;
+}
+.titaniumtop p{
+    color: #fff;
+    padding: 5px ;
+}
+.titaniumbottom{
+    background: url('img/titanium-mobile.jpeg') center/cover no-repeat;
+    background-color: #000;
+    background-size: 15%;
+    width: 100%;
+    height: 60vh;
+}
+.newphoria{padding: 50px 0;}
+.newphoriabottom{
+    background: url(img/newphoria.jpeg) center/cover no-repeat;
+    background-color: #fff;
+    background-size: 100%;
+    width: 100%;
+    height: 30vh;
+}
+.newphoria h4{font-size: 2rem;}
+.newphoria::after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 5%;
+}
+.love{
+    padding: 20px 0 30px 0;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+}
+.lovetop{padding: 10px 0;}
+.lovetop h2{
+    color: #1E3791;
+    font-size: 2rem;
+}
+.lovebottom{
+    background: url(img/lovebg.jpeg) center/cover no-repeat;
+    background-color: #FBFBFB;
+    background-size: 80%;
+    width: 100%;
+    height: 60vh;
+}
+.guidforpc{display: none;}
+.guidformobile{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.guidedtop{text-align: center;}
+.guidedtop h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.guidedtop h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.guidedtop a{
+    text-decoration: none;
+    font-size: .8rem;
+}
+.guidedbottom{
+    margin: 20px 0;
+    background: url(img/guided.jpeg) center/cover no-repeat;
+    background-color: #fff;
+    background-size: 100%;
+    width: 100%;
+    height: 40vh;
+}
+.phonecard .tele{height: 20vh;}
+.whichiphone{
+    padding: 20px 0;
+}
+.which .reng{ padding: 10px;}
+.which h2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2rem;
+}
+.which .icons{width: 15%;}
+.phonecardbottom p{
+    padding: 10px ;
+    font-size: .7rem;
+    font-weight: 300;
+}
+.which button{margin: 10px 0;}
+.which h6{
+    font-size: .8rem;
+    font-weight: 300;
+}
+.save{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+}
+.save p{
+    color: #6E6E73;
+    padding: 20px;
+}
+.savecard1{
+    padding: 30px 0;
+    background-color: #fff;
+}
+.savecard2{
+    padding: 30px 0;
+    background-color: #fff;
+}
+.savecard3{
+    padding: 30px 0;
+    background-color: #fff;
+}
+.savecardtop{padding: 0 20px;}
+.savevardbottom1{
+    background: url('img/save1.jpg') center/cover no-repeat;
+    background-size: 95%;
+    height: 40vh;
+}
+.savevardbottom2{
+    background: url('img/save2.jpeg') center/cover no-repeat;
+    background-size: 50%;
+    height: 40vh;
+}
+.savevardbottom3{
+    background: url('img/save3.jpeg') center/cover no-repeat;
+    background-size: 50%;
+    height: 40vh;
+}
+.ways{ padding: 30px 0 0 0;}
+.best{
+    background: url('img/appleisthebest.jpeg') 1% 100% /cover no-repeat;
+    background-color: #fff;
+    background-size: 150%;
+    width: 100%;
+    height: 60vh;
+    padding: 30px 0 0 0;
+}
+.best p{
+    width: 80%;
+    margin: auto;
+    padding: 20px ;
+}
+.best h2{
+    font-size: 2rem;
+    padding: 20px ;
+}
+.featured{ 
+    padding: 50px;
+    font-size: 2rem;
+}
+.magsafe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.magsafetop{
+    padding: 30px 0;
+    background-color: #fff;
+    height: 25vh;
+    text-align: center;
+}
+.magsafebottom{
+    height: 30vh;
+    background: url('img/magsafe.jpeg') center/cover no-repeat;
+    background-size: 95%;
+}
+.airtag{
+    background-color: #fff;
+    margin: 30px 0;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+.airtag h2{ 
+    font-size: 2rem;
+    padding: 20px 0;
+}
+.airtagbottom{
+    background: url('img/airtag.jpeg') center/cover no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+.magic{
+    background-color: #fff;
+    margin: 30px 0;
+    padding: 40px 0;
+}
+.magic p{padding: 0 30px;}
+.magic h2{
+    font-size: 2rem;
+    padding: 20px 0;
+}
+.magicbottom{
+    background: url('img/magic.jpeg') center/cover no-repeat ;
+    height: 30vh;
+    width: 100%;
+    background-size: 90%;
+}
+.buycards{margin: 40px 0 60px 0;}
+.shopalliphone h2{
+    font-size: 2rem;
+    padding: 20px;
+}
+.ios{
+    background-color: #fff;
+    padding: 40px 0;
+}
+.ios h2{
+    font-size: 2rem;
+    padding: 20px 0;
+}
+.thatsiphone{
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.thatsiphone h2{
+    font-size: 2rem;
+    padding: 30px;
+}
+.switching, .privacy{
+    width: 100%;
+    background-color: #fff;
+}
+.switchingbottom{
+    background: url('img/switching.jpeg') center/cover no-repeat;
+    height: 50vh;
+    width: 100%;
+    background-size: 230%;
+    margin: 20px 0 0 0;
+}
+.privacybottom{
+    background: url('img/privacy.jpg') center/cover no-repeat;
+    height: 40vh;
+    width: 100%;
+}
+.one h2{
+    padding: 60px 0 30px 0;
+    font-size: 2rem;
+}
+.oneapple{
+    padding: 20px 0;
+    background-color: #fff;
+}
+.oneapple h2{
+    font-size: 2rem;
+    padding: 20px;
+}
+.one p{padding: 0 30px;}
+.tvmusic, .fitnessarcade, .newsgift{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0 0 0;
+    gap: 20px;
+}
+.tvmusic h2, .fitnessarcade h2, .newsgift h2, .introducing h2 {
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+    font-size: 2rem ;
+    color: #fff;
+}
+.fitnessarcade h2, .newsgift h2, .introducing h2{color: #000!important;}
+.fitnessarcade p, .newsgift p, .introducing p{
+    padding: 0 40px;
+    font-size: 1.5rem;
+}
+.tvmusic p{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.tv, .music{
+    width: 100%;
+    background: #000;
+    padding: 5px;
+}
+.tvtop, .musictop, .fitness, .arcade, .news, .gift{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.tvbottom{
+    background: url('img/tv+_bg.png') center/cover no-repeat;
+    background-size: 160%;
+    height: 40vh;
+    width: 100%;
+    margin: 40px 0;
+}
+.musicbottom{
+    background: url('img/music_bg.jpg') center/cover no-repeat;
+    background-size: 120%;
+    height: 40vh;
+    width: 100%;
+    margin: 40px 0;
+}
+.fitnessbottom{
+    background: url('img/fitness_bg.jpg') center/cover no-repeat;
+    width: 100%!important;
+    height: 40vh;
+    margin: 40px 0;
+}
+.arcadebottom{
+    background: url('img/arcade_bg.png') center/cover no-repeat;
+    width: 100%;
+    height: 40vh;
+    margin: 40px 0 0 0;
+}
+.fitness, .arcade, .news, .gift{
+    background: #fff;
+    width: 100%;
+    padding: 5px;
+}
+.newsbottom{
+    background: url('img/news_bg.jpeg') 50% 90%/cover no-repeat;
+    width: 100%!important;
+    height: 30vh;
+    margin: 40px 0;
+}
+.giftbottom{
+    background: url('img/gift_bg.jpg') center/cover no-repeat;
+    width: 100%;
+    height: 40vh;
+    margin: 40px 0 0 0;
+}
+.introducing{
+    width: 100%;
+    margin: 40px 0 0 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+.introducingbottom{
+    background: url('img/research_app.jpg') center/cover no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 30vh;
+    margin: 40px 0 0 0;
+}
+.bgboz{padding: 40px 0;}
+footer{padding: 30px 0;}
+footer p, li{
+    font-size: .8rem;
+    color: #858585;
+    text-align: justify;
+}
+.footermenu {
+    width: 100%;
+    padding: 10px;
+}
+.menu-item {margin-bottom: 10px;}
+.menu-item label {
+    display: block;
+    font-size: .8rem;
+    padding: 10px;
+}
+.submenu1, .submenu2, .submenu3, .submenu4, .submenu5, .submenu6, .submenu7, .submenu8, .submenu9, .submenu10, .submenu11{
+    margin-top: 10px;
+    padding-left: 20px;
+    display: none;
+    list-style: none;
+}
+.menu-item input{display: none;}
+.menu-item input:checked ~ .submenu1 { display: block;}
+.menu-item input:checked ~ .submenu2 {display: block;}
+.menu-item input:checked ~ .submenu3 {display: block;}
+.menu-item input:checked ~ .submenu4 {display: block;}
+.menu-item input:checked ~ .submenu5 {display: block;}
+.menu-item input:checked ~ .submenu6 {display: block;}
+.menu-item input:checked ~ .submenu7 {display: block;}
+.menu-item input:checked ~ .submenu8 {display: block;}
+.menu-item input:checked ~ .submenu9 {display: block;}
+.menu-item input:checked ~ .submenu10 {display: block;}
+.menu-item input:checked ~ .submenu11 {display: block;}
+.submenu1 li a, .submenu2 li a, .submenu3 li a, .submenu4 li a, .submenu5 li a, .submenu6 li a, .submenu7 li a, .submenu8 li a, .submenu9 li a, .submenu10 li a, .submenu11 li a{
+    text-decoration: none;
+    color: #333;
+}
+footer h4{
+    font-size: 1rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 300;
+}
+footer h4 i{
+    font-size: 1.3rem;
+}
+footer h4 a{
+    padding: 0 10px ;
+    text-decoration: none;
+    color: #000;
+}
+footer h6{
+    font-size: .8rem;
+    font-weight: 300;
+}
+.footer3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .8rem;
+}
+@media only screen and (min-width: 768px){
+    .container{width: 80%!important;}
+    .navbar-toggler{display: none!important;}
+    nav ul{
+        display: flex;
+        list-style: none;
+        margin: auto;
+        padding: 20px 0;
+    }
+    nav ul a::after{
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        width: 0%;
+        height: 2px;
+        background-color: #000;
+        transition: .3s ease;
+        transform: translateX(-50%);
+    }
+    nav ul a:hover::after{width: 100%;}
+    .titaniumtop{height: 40vh;}
+    .titaniumbottom{
+        height: 50vh;
+        background: url('img/titanium-pc.png') center/cover no-repeat;
+        background-size: 50%;
+        background-color: #000;
+    }
+    .newphoriabottom{
+        background: url(img/newphoria.jpeg) center/cover no-repeat;
+        background-color: #fff;
+        background-position: center;
+        background-size: 100%;
+        width: 100%;
+        height: 70vh;
+    }
+    .newphoria h4{font-size: 2.6rem;}
+    .love{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .lovetop{width: 50%;}
+    .lovetop h2{font-size: 2.9rem;}
+    .lovebottom{
+        background: url('img/lovebg.jpeg') center/cover no-repeat;
+        background-color: #FBFBFB;
+        width: 50%;
+        background-size: 65%;
+        height: 100vh;
+    }
+    .guidformobile{display: none;}
+    .guidforpc{
+        display: block;
+        position: relative;
+        background: url('img/guided.jpeg') center/cover no-repeat;
+        background-color: #fff;
+        width: 95%;
+        height: 100vh;
+        margin: auto;
+        border-radius: 30px;
+    }
+    .guidforpc .title{
+        position: absolute;
+        left: 150px;
+        bottom: 50%;
+        transform: translateY(50%);
+    }
+    .guidforpc h4{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #fff;
+    }
+    .guidforpc h2{
+        font-size: 3rem;
+        font-weight: 300;
+        color: #fff;
+    }
+    .guidforpc a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #ffffff9c;
+        border-radius: 25px;
+        color: #000;
+    }
+    .which h2{font-size: 3rem;}
+    .save{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .ways{ font-size: 3rem;}
+    .savecard1{width: 33%;}
+    .savecard2{width: 33%;}
+    .savecard3{width: 33%;}
+    .savevardbottom1{
+        background-size: 90%;
+        height: 30vh;
+    }
+    .savevardbottom2{
+        background-size: 50%;
+        height: 30vh;
+    }
+    .savevardbottom3{
+        background-size: 52%;
+        height: 30vh;
+    }
+    .best{
+        background-position: center;
+        background-size: 140%;
+        background-attachment: cover;
+        width: 100%;
+        height: 80vh;
+    }
+    .best h2{
+        width: 50%;
+        margin: auto;
+        font-size: 3rem;
+    }
+    .best p{
+        width: 45%;
+        margin: auto;
+        padding: 20px ;
+    }
+    .featured{font-size: 3rem;}
+    .magsafe{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .magsafebottom{
+        width: 50%;
+        height: 70vh;
+        background-size: 100%;
+    }
+    .magsafe h2{font-size: 3rem;}
+    .airtag{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .airtag h2{font-size: 3rem;}
+    .airtagtop{
+        width: 50%;
+        order: 1;
+    }
+    .airtagbottom{
+        width: 50%;
+    }
+    .magic h2{font-size: 3rem;}
+    .magicbottom{
+        background: url('img/magic.jpeg') center/cover no-repeat ;
+        height: 50vh;
+        width: 100%;
+        background-size: 70%;
+    }
+    .iosbottom{
+        background: url('img/ios17.jpg') center/cover no-repeat;
+        height: 50vh;
+        width: 100%;
+    }
+    .ios h2{
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    .shopalliphone h2{
+        font-size: 3rem;
+    }
+    .thatsiphone{
+        flex-direction: row;
+    }
+    .thatsiphone h2{
+        font-size: 3rem;
+    }
+    .switchingbottom{
+        background: url('img/switching.jpeg') center/cover no-repeat;
+        height: 50vh;
+        width: 100%;
+        background-size: 215%;
+    }
+    .privacybottom{
+        background: url('img/privacy.jpg') center/cover no-repeat;
+        height: 50vh;
+        width: 100%;
+        background-size: 150%;
+    }
+    .one h2{
+        padding: 60px 0 30px 0;
+        font-size: 3rem;
+    }
+    .oneapple{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .oneapple h2{
+        font-size: 4rem;
+        padding: 10px;
+    }
+    .oneapple p{font-size: 1.5rem;}
+    .onebottom{
+        padding: 30px ;
+        width: 50%;
+    }
+    .onetop{
+        background: url('img/one.jpeg') center/cover no-repeat;
+        height: 50vh;
+        width: 50%;
+        background-size: 80%;
+    }
+    .tvmusic, .fitnessarcade, .newsgift{flex-direction: row;}
+    .tvmusic h2, .fitnessarcade h2, .newsgift h2, .introducing h2 {font-size: 3rem;}
+    .tv, .music{
+        width: 50%;
+        background: #000;
+    }
+    .introducing{
+        flex-direction: row;
+        align-items: center;
+    }
+    .introducingbottom{
+        background-size: 100%;
+        height: 60vh;
+        width: 50%;
+    }
+    .introducingtop{
+        padding: 0 40px ;
+        width: 50%;
+    }
+    .footermenu{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footermenu hr{
+        display: none;
+    }
+    .footermenu ul{
+        display: block;
+    }
+    .footermenu i{
+        display: none;
+    }
+    .widht20{
+        width: 20%!important;
+    }
+}
